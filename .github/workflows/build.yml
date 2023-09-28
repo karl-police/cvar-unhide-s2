@@ -18,7 +18,7 @@ jobs:
   
   
       - name: Build
-        run: msbuild cvar-unhide-s2.sln /p:Configuration=Release
+        run: msbuild cvar-unhide-s2.sln /p:Configuration=Debug
   
   
       - name: Upload build artifacts

@@ -1,4 +1,4 @@
 [submodule "sdk"]
 	path = sdk
 	url = https://github.com/GAMMACASE/hl2sdk
-	branch = csgo
+	branch = dota-updated

@@ -8,7 +8,7 @@ static void cvar_unhide_callback(const CCommand& args);
 ConCommand cvar_unhide(&cvar_unhide_ref, "cvar_unhide", cvar_unhide_callback);
 static void cvar_unhide_callback(const CCommand& args)
 {
-	int64 flagsToRemove = (FCVAR_HIDDEN | FCVAR_DEVELOPMENTONLY | FCVAR_GAMEDLL | FCVAR_MISSING3);
+	int64 flagsToRemove = (FCVAR_HIDDEN | FCVAR_DEVELOPMENTONLY | FCVAR_MISSING3);
 	int unhiddenConCmds = 0;
 	int unhiddenConVars = 0;
 
